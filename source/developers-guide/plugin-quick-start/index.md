@@ -172,6 +172,8 @@ A smarty block will usually look like this:
 # Writing our first little plugin
 The following example will show how to write a very simple plugin, which extends the frontend and adds a little "slogan" to the page.
 
+First you have to create plugin configuration file `plugin.xml` on plugin root directory with the following metadata to describe the plugin.
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
    <plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
