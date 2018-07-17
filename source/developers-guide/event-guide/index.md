@@ -235,6 +235,7 @@ public function notifyUntilAction()
     
     echo 'Do some magic';
 }
+```
 
 Now imagine, you subscribed to the `SwagEvent_Controller_Index_After_Do_Some_Magic_Notify_Until` event with the following event callback:
 
